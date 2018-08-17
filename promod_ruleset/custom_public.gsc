@@ -185,7 +185,7 @@ main()
 	setDvar( "g_antilag", 1 );
 	setDvar( "g_smoothClients", 1 );
 	setDvar( "sv_allowDownload", 1 );
-	setDvar( "sv_maxPing", 0 );
+	setDvar( "sv_maxPing", 500 );
 	setDvar( "sv_minPing", 0 );
 	setDvar( "sv_reconnectlimit", 3 );
 	setDvar( "sv_timeout", 240 );
@@ -220,11 +220,11 @@ main()
 	setDvar( "promod_mc_delay", 3 ); // [1->] (default delay in seconds between messages)
 	setDvar( "promod_mc_loopdelay", 6 ); // [1->] (delay in seconds until it starting over)
 	setDvar( "promod_mc_maxmessages", 7 ); // [1->] (set this equivalent to number of messages)
-	setDvar( "promod_mc_message_1", "^1Welcome To ^4Sri ^4Lankas ^1NO1 Server" );
+	setDvar( "promod_mc_message_1", "^1Welcome To ^4Sri ^4Lankas ^1NO1 ^2Promod ^2SND Server" );
 	setDvar( "promod_mc_message_2", "Refrain From ^1Hacking ^4Abusing ^7And ^3Spaming" );
-	setDvar( "promod_mc_message_3", "^1Hackers ^7Will Lead to ^1Premanent Ban" );
-	setDvar( "promod_mc_message_4", "" );
+	setDvar( "promod_mc_message_3", "^1Hackers ^7Will Lead To ^1Permanent ^1Ban" );
+	setDvar( "promod_mc_message_4", "HOST BY: ^1PUSA!!!" );
 	setDvar( "promod_mc_message_5", "MOD BY: ^1$TRE$$" );
-	setDvar( "promod_mc_message_6", "" );
+	setDvar( "promod_mc_message_6", "ADMIN: ^4PUSA!!! ^4$TRE$$" );
 	setDvar( "promod_mc_message_7", "" );
 }
