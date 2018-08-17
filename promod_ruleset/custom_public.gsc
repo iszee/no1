@@ -185,7 +185,7 @@ main()
 	setDvar( "g_antilag", 1 );
 	setDvar( "g_smoothClients", 1 );
 	setDvar( "sv_allowDownload", 1 );
-	setDvar( "sv_maxPing", 500 );
+	setDvar( "sv_maxPing", 700 );
 	setDvar( "sv_minPing", 0 );
 	setDvar( "sv_reconnectlimit", 3 );
 	setDvar( "sv_timeout", 240 );
